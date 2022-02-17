@@ -17,6 +17,7 @@
 		C63CB6AD27BED94600C7E060 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63CB68327BED94600C7E060 /* MeetingView.swift */; };
 		C63CB6AE27BED94600C7E060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C63CB68427BED94600C7E060 /* Assets.xcassets */; };
 		C63CB6AF27BED94600C7E060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C63CB68427BED94600C7E060 /* Assets.xcassets */; };
+		C6DD402C27BF068500D4A885 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DD402B27BF068500D4A885 /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C63CB6A227BED94600C7E060 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C63CB6A627BED94600C7E060 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		C63CB6A827BED94600C7E060 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		C6DD402B27BF068500D4A885 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 		C6DD402A27BF061B00D4A885 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C6DD402B27BF068500D4A885 /* Theme.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6DD402C27BF068500D4A885 /* Theme.swift in Sources */,
 				C63CB6AC27BED94600C7E060 /* MeetingView.swift in Sources */,
 				C63CB6AA27BED94600C7E060 /* ScrumdingerApp.swift in Sources */,
 			);
