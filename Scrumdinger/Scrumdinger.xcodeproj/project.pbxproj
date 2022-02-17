@@ -86,6 +86,7 @@
 		C63CB67C27BED94500C7E060 = {
 			isa = PBXGroup;
 			children = (
+				C6DD402A27BF061B00D4A885 /* Models */,
 				C63CB68127BED94600C7E060 /* Shared */,
 				C63CB69027BED94600C7E060 /* macOS */,
 				C63CB69927BED94600C7E060 /* Tests iOS */,
@@ -139,6 +140,13 @@
 				C63CB6A827BED94600C7E060 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		C6DD402A27BF061B00D4A885 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
