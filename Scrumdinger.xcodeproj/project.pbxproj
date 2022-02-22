@@ -17,7 +17,7 @@
 		7CB413F726EAC76E00544BA7 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB413F626EAC76E00544BA7 /* TrailingIconLabelStyle.swift */; };
 		7CB413F926EB9A1A00544BA7 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB413F826EB9A1A00544BA7 /* ScrumsView.swift */; };
 		7CB413FB26EBAB0B00544BA7 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB413FA26EBAB0B00544BA7 /* DetailView.swift */; };
-		AA0F3C5527208DC500945F09 /* SampleCode.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AA0F3C5127208DC500945F09 /* SampleCode.xcconfig */; };
+		C66CF62727C58C9100B1B8C1 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66CF62627C58C9100B1B8C1 /* DetailEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +33,7 @@
 		7CB413F826EB9A1A00544BA7 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		7CB413FA26EBAB0B00544BA7 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		AA0F3C5127208DC500945F09 /* SampleCode.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = SampleCode.xcconfig; sourceTree = "<group>"; };
+		C66CF62627C58C9100B1B8C1 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +76,7 @@
 				7CB413F626EAC76E00544BA7 /* TrailingIconLabelStyle.swift */,
 				7CB413E226EA824300544BA7 /* Assets.xcassets */,
 				7CB413E426EA824300544BA7 /* Preview Content */,
+				C66CF62627C58C9100B1B8C1 /* DetailEditView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -132,7 +134,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					7CB413DA26EA824100544BA7 = {
 						CreatedOnToolsVersion = 13.0;
@@ -163,7 +165,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CB413E626EA824300544BA7 /* Preview Assets.xcassets in Resources */,
-				AA0F3C5527208DC500945F09 /* SampleCode.xcconfig in Resources */,
 				7CB413E326EA824300544BA7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -177,6 +178,7 @@
 			files = (
 				7CB413F326EABF1D00544BA7 /* DailyScrum.swift in Sources */,
 				7CB413FB26EBAB0B00544BA7 /* DetailView.swift in Sources */,
+				C66CF62727C58C9100B1B8C1 /* DetailEditView.swift in Sources */,
 				7CB413F726EAC76E00544BA7 /* TrailingIconLabelStyle.swift in Sources */,
 				7CB413F126EA97C500544BA7 /* Theme.swift in Sources */,
 				7CB413F926EB9A1A00544BA7 /* ScrumsView.swift in Sources */,
