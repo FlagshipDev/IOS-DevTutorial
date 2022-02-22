@@ -27,8 +27,8 @@
 		7CB4140C26EBF93800544BA7 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4140B26EBF93800544BA7 /* AVPlayer+Ding.swift */; };
 		7CB4140E26EBFDCC00544BA7 /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4140D26EBFDCC00544BA7 /* MeetingHeaderView.swift */; };
 		7CB4141026EC03DD00544BA7 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4140F26EC03DD00544BA7 /* MeetingFooterView.swift */; };
-		AA0F3C702720921200945F09 /* SampleCode.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AA0F3C6E2720921100945F09 /* SampleCode.xcconfig */; };
 		AA0F3C712720921200945F09 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AA0F3C6F2720921100945F09 /* README.md */; };
+		C618925327C5AC6300D35EDD /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = C618925227C5AC6300D35EDD /* History.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +55,7 @@
 		7CB4140F26EC03DD00544BA7 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		AA0F3C6E2720921100945F09 /* SampleCode.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = SampleCode.xcconfig; sourceTree = "<group>"; };
 		AA0F3C6F2720921100945F09 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C618925227C5AC6300D35EDD /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +126,7 @@
 				7CB413F226EABF1D00544BA7 /* DailyScrum.swift */,
 				7CB4140426EBF6F900544BA7 /* ScrumTimer.swift */,
 				7CB413F026EA97C500544BA7 /* Theme.swift */,
+				C618925227C5AC6300D35EDD /* History.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -173,7 +175,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					7CB413DA26EA824100544BA7 = {
 						CreatedOnToolsVersion = 13.0;
@@ -207,7 +209,6 @@
 				7CB4140726EBF77800544BA7 /* LICENSE in Resources */,
 				7CB413E626EA824300544BA7 /* Preview Assets.xcassets in Resources */,
 				7CB4140A26EBF7E000544BA7 /* ding.wav in Resources */,
-				AA0F3C702720921200945F09 /* SampleCode.xcconfig in Resources */,
 				7CB413E326EA824300544BA7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C618925327C5AC6300D35EDD /* History.swift in Sources */,
 				7CB4140126EBE5E200544BA7 /* ThemePicker.swift in Sources */,
 				7CB4140326EBF6B700544BA7 /* ScrumProgressViewStyle.swift in Sources */,
 				7CB413F326EABF1D00544BA7 /* DailyScrum.swift in Sources */,

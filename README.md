@@ -1,5 +1,5 @@
-# Managing State and Life Cycle
+# Updating App Data
 
-## Completed Project
+## Starting Project
 
-Explore the completed project for [Managing State and Life Cycle](https://developer.apple.com/tutorials/app-dev-training/managing-state-and-life-cycle).
+Use this project to code along with [Updating App Data](https://developer.apple.com/tutorials/app-dev-training/updating-app-data).
