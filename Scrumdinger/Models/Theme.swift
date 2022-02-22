@@ -1,9 +1,7 @@
-//
-//  Theme.swift
-//  Scrumdinger (iOS)
-//
-//  Created by Javier Miralles Rancaño on 17/2/22.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+*/
+
 
 import SwiftUI
 
